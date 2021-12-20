@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.page {
+  width: 1340px;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin: 16px 22px;
+}
+
+.navigation {
+  margin-left: 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #ba876c;
+  color: black;
+}
+.menu__list {
+  display: flex;
+  list-style: none;
+}
+.menu__list-item {
+  margin-right: 35px;
+}
+
+.search-basket {
+  display: flex;
+  margin-left: auto;
+  width: 100px;
+  justify-content: space-around;
+  margin-right: 50px;
+  align-items: center;
+  position: relative;
+}
+
+.basket__span {
+  display: inline-block;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.welcome-page {
+  min-height: 730px;
+  background-image: url(img/background/christmas-balls-gifts-pink-background.jpg);
+  background-size: 100%;
+  position: relative;
+}
+
+.title {
+  color: black;
+  position: absolute;
+  top: 300px;
+  left: 70px;
+}
+
+.description {
+  font-size: 19px;
+}
+
+.title-text {
+  font-weight: 900;
+  font-size: 25px;
+  /* line-height: 55px; */
+}
+
+.button-welcome {
+  display: inline-block;
+  position: absolute;
+  top: 595px;
+  left: 70px;
+  padding: auto;
+}
+
+.button__shop-now {
+  width: 177px;
+  height: 47px;
+  background-color: #212806;
+  color: #fcf8f3;
+  border: 1px #212806 solid;
+  border-radius: 40px;
+}
+
+.div-in-button {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  align-content: center;
+}
+.div-in-button > span {
+  line-height: 20px;
+  font-size: 18px;
+  display: inline-block;
+}
+.button__shop-now:hover {
+  cursor: pointer;
+}
+
+.our-best-sellers {
+  display: flex;
+  margin-top: 10px;
+}
+
+.our-best-sellers__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 310px;
+  height: 480px;
+  margin: 70px;
+}
+.our-best-sellers__cards {
+  display: flex;
+  height: 430px;
+  width: 890px;
+  justify-content: space-between;
+  padding-top: 130px;
+}
+
+.card-item {
+  min-height: 310px;
+  min-width: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.our-best-sellers .description {
+  text-align: center;
+}
+.our-best-sellers .description > span {
+  line-height: 14px;
+  font-size: 12px;
+}
+.our-best-sellers .description > h4 {
+  line-height: 35px;
+  font-size: 21px;
+}
+.our-best-sellers .description > p.price {
+  line-height: 29px;
+  font-size: 16px;
+}
+
+.explore-our-product {
+  display: flex;
+  flex-direction: column;
+  min-height: 720px;
+  margin: 10px 30px;
+  justify-content: space-around;
+}
+
+.explore-our-product__title {
+  line-height: 65px;
+  font-size: 40px;
+  margin-bottom: -40px;
+}
+
+.explore-our-product__cards {
+  display: flex;
+  flex-direction: row;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+}
+
+.explore-our-product__cards_item {
+  width: 415px;
+  height: 500px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.explore-img {
+  height: 500px;
+}
+
+.explore-description {
+  background-color: #f9e9e0;
+  font-size: 23px;
+  text-align: center;
+  line-height: 65px;
+}
