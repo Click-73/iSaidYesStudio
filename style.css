@@ -90,10 +90,16 @@
 .button__shop-now {
   width: 177px;
   height: 47px;
-  background-color: #212806;
-  color: #fcf8f3;
-  border: 1px #212806 solid;
+  background-color: #fff;
+  color: #000;
+  border: 1px #fff solid;
   border-radius: 40px;
+}
+
+.button__shop-now_second {
+  background-color: #000;
+  color: #fff;
+  border: 1px #000 solid;
 }
 
 .div-in-button {
@@ -101,6 +107,7 @@
   justify-content: space-around;
   margin: auto;
   align-content: center;
+  font-weight: bold;
 }
 .div-in-button > span {
   line-height: 20px;
@@ -124,12 +131,19 @@
   height: 480px;
   margin: 70px;
 }
+
+.our-best-sellers__title_text p {
+  line-height: 24px;
+}
 .our-best-sellers__cards {
   display: flex;
   height: 430px;
   width: 890px;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 130px;
+}
+.our-best-sellers__cards_conteiner {
+  margin-right: 20px;
 }
 
 .card-item {
@@ -137,12 +151,16 @@
   min-width: 290px;
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .our-best-sellers .description {
   text-align: center;
+  background-color: rgb(255, 245, 245);
 }
 .our-best-sellers .description > span {
+  display: inline-block;
+  margin-top: 20px;
   line-height: 14px;
   font-size: 12px;
 }
@@ -153,6 +171,18 @@
 .our-best-sellers .description > p.price {
   line-height: 29px;
   font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+.our-best-sellers .description > p.price img {
+  width: 8%;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.our-best-sellers .description > p.price span {
+  display: inline-block;
+  margin-left: 120px;
 }
 
 .explore-our-product {
@@ -166,7 +196,9 @@
 .explore-our-product__title {
   line-height: 65px;
   font-size: 40px;
-  margin-bottom: -40px;
+  margin-bottom: -60px;
+  color: rgb(141, 128, 130);
+  margin-left: 30px;
 }
 
 .explore-our-product__cards {
@@ -186,6 +218,8 @@
 
 .explore-img {
   height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .explore-description {
